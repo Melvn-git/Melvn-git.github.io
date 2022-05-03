@@ -24,8 +24,7 @@ remote_theme: "jeffreytse/jekyll-theme-yat"
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-heading: 'Hello, I am Melvin Karuga'
-subheading: 'I am an aspriring cybersecurity professional.'
+
 title: theMelvinK
 email: melvin.karuga@gmail.com 
 author: Melvin Karuga
