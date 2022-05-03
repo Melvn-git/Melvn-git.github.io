@@ -5,8 +5,9 @@
 # Yet another theme for elegant writers with modern flat style and beautiful
 # night/dark mode.
 #
-# Website: https://github.com/jeffreytse/jekyll-theme-yat
-#
+Website: https://Melvn-git.github.io
+# theme: owner/name --> Don't forget to remove/comment the gem-based theme option
+remote_theme: "jeffreytse/jekyll-theme-yat"
 # You can do anything you want, including projects for your clients, as long
 # as you mention an attribution back (credit links in footer or project).
 # See the LICENCE file.
@@ -24,9 +25,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@domain.com
-author: GitHub User
+title: theMelvinK
+email: melvin.karuga@gmail.com 
+author: Melvn-git
 
 # Copyright setting
 # You can use any html code, currently below placeholders are available:
