@@ -39,9 +39,11 @@ MOTHERBOARD: B450 Pro4
 ## Installing and Configuring:
 After I installed all of the machines, I began working on the Windows Server and configuring it.  Firstly, we will need two certificates.  We wil need both the "Active Directory Certicate Services" or AD CS and "Active Directorty Domain Services" or AD DS.  
 
-##### What is AD CS? The importance of AD CS is the usage of PKI, which is the software and tech that allows you to secure your data.  PKI uses digital certificates to authenticate its services. AD CS provides the PKI components and lets it run on your domain.
+##### What is AD CS? 
+The importance of AD CS is the usage of PKI, which is the software and tech that allows you to secure your data.  PKI uses digital certificates to authenticate its services. AD CS provides the PKI components and lets it run on your domain.
 
-##### What is AD DS? This is the service that is used to set the server as the domain controller. This allows us to store informatio of users, networks and its applications.
+##### What is AD DS? 
+This is the service that is used to set the server as the domain controller. This allows us to store informatio of users, networks and its applications.
 
 After I have configured the domain controller, I will connect both of the user accounts to the domain.  I'll be doing this by simply joining each device to the local Active Directory domain. Before this, I will need to grap the IP address of the domain controller and input it to both the machine's preferred DNS server. Once this is done, there is now a connection between the users and the server.  Now, we can join the users to the domain. 
 
