@@ -21,7 +21,7 @@ sidebar: []
 ---
 
 ## Why?
-Reading up on material and theory can be helpful, but there's only so much I was able to learn by studying network fundamentals and how vulerabilities are exploited.  I needed to actually go out and experiment with these concepts.  There are alternatives, such as tryhackme and hackthebox, but I wanted to also dig deeper; I wanted to create the simulation myself with an active directory, a domain controller, and an up and running server with users and administrators.  The aim was to simulate a real working environment, all with the help of VMware.
+Reading up on material and theory can be helpful, but there was only so much I was able to learn by studying network fundamentals and how vulerabilities are exploited.  I needed to actually go out and experiment with these concepts.  There are alternatives, such as tryhackme and hackthebox, but I wanted to also dig deeper; I wanted to create the simulation myself with an active directory, a domain controller, and an up and running server with users and administrators.  The aim was to simulate a real working environment, all with the help of VMware.
 
 ## What is a homelab?
 A homelab is an environment that you can create yourelf to practice skills and theories that you run across.  Want to experiment with LLMNR and NBT-NS poisoning? Want to attempt using kerberoasting? Do you simply want to get an idea of what an active directory domain looks like and how it's built? A homelab is a great way of getting this crucial hands-on experience.  
