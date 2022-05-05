@@ -24,10 +24,10 @@ sidebar: []
 Theory theory theory. There's only so much I was able to learn by studying network fundamentals and how vulerabilities are exploited.  I needed to actually go out and experiment with these concepts.  There are alternatives, such as tryhackme and hackthebox, but I wanted to also dig deeper; I wanted to create the environment myself with an active directory, a domain controller, and an up and running server with users and administrators.  I wanted to simulate a real working environment, all with the help of VMware.
 
 ## What is a homelab?
-A homelab is an environemnt that you can create yourelf to practice skills and theories that you run across.  Want to experiment with LLMNR and NBT-NS poisoning? Want to attempt using kerberoasting? Do you simply want to get an idea of what an active directory envorinment look like and how it's built? A homelab is a great way of getting this crucial hands-on experience.  
+A homelab is an environment that you can create yourelf to practice skills and theories that you run across.  Want to experiment with LLMNR and NBT-NS poisoning? Want to attempt using kerberoasting? Do you simply want to get an idea of what an active directory environment looks like and how it's built? A homelab is a great way of getting this crucial hands-on experience.  
 
 ## The Setup
-With this homelab, I will be utilizing active directory on a Windows 2019 Enterprise server; this will also act as my domain controller.  I will be also using two Windows 10 virtual machines to act as users in this envirnonment.  As for the attacking machine, I will be deploying a Kali Linux VM.  In the future as I dig deeper, I will be expanding this homelab and adding more machines, more users/admins, and deploying a pfSense firewall as my attacks get more and more advanced.
+With this homelab, I will be utilizing active directory on a Windows 2019 Enterprise server; this will also act as my domain controller.  I will be also using two Windows 10 virtual machines to act as users in this environment.  As for the attacking machine, I will be deploying a Kali Linux VM.  In the future as I dig deeper, I will be expanding this homelab and adding more machines, more users/admins, and deploying a pfSense firewall as my attacks get more and more advanced.
 
 ## Hardware
 As with a virtual lab, I need a decent physical machine to be able to run all of these virtual machines.  My hardware is listed below:
