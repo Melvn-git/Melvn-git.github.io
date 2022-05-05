@@ -37,7 +37,7 @@ As with a virtual lab, I need a decent physical machine to be able to run all of
 * MOTHERBOARD: B450 Pro4  
 
 ## Installing and Configuring:
-After I installed all of the machines, I began working on the Windows Server and configuring it.  Firstly, we will need two certificates.  We wil need both the "Active Directory Certicate Services" or AD CS and "Active Directorty Domain Services" or AD DS.  
+After I installed all of the machines, I began working on the Windows Server and configuring it.  Firstly, we will need two certificates.  We will need both the "Active Directory Certicate Services" or AD CS and "Active Directorty Domain Services" or AD DS.  
 
 **What is AD CS?** 
 The importance of AD CS is the usage of PKI, which is the software and tech that allows you to secure your data.  PKI uses digital certificates to authenticate its services. AD CS provides the PKI components and lets it run on your domain.
