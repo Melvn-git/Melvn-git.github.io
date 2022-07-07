@@ -51,3 +51,5 @@ To take this a bit further, I am going to make both of the users a local adminsi
 
 ## Conclusion
 As it can be seen, this active directory environment is purposefully set in a vulnerable state in order to execute attacks.  I will be recording my progress with these several vulnerabilities in more depth in future posts; this post was meant for introducing the lab and what it's intended for in the future.  As my knowledge grows, I'll expand this environment to allow for more advanced and sophisticated attacks. Thank you for reading! 
+
+testing
