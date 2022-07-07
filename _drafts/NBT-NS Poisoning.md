@@ -1,7 +1,7 @@
 ---
 layout: post
 title: LLMNR/NBT-NS Poisoning
-subtitle: Created using the power of virtualization.
+subtitle: Carrying out an active directory attack.
 author: Melvin Karuga
 categories: homelab 
 banner:
@@ -16,7 +16,7 @@ banner:
   min_height: "38vh"
   heading_style: "font-size: 4.25em; font-weight: bold; text-decoration: underline"
   subheading_style: "color: gold"
-tags: 
+tags: homelab
 sidebar: []
 ---
 
@@ -30,13 +30,17 @@ sidebar: []
 
 ## The Attack:
 - On our Kali Linux attacking machine, we will be running Responder, a tool that allows us to execute this attack.  We will use the following command:
-```shell
+```bash
 sudo python Repsonder.py -I eth0 - rdwv
 ```
-- Once this is ran, Responder begins listening for events.  In a real world scenario, an attacker would set this up in the morning, before everyone logs on to their environments so that the attacker can receive the most traffic. 
+- Once this is ran, Responder begins listening for events.  In a real world scenario, an attacker would set this up in the morning, before everyone logs on to their environments so that the attacker can receive the most traffic.
+
+![](../assets/images/respondinglistening.png)
 - Now we can see that Responder is successfully listening for events.  At this point, we are setup to begin receiving broadcast messages.  After sending a request that does not exist on the user fcastle, our attacking machine has received a connection:
 ## Hash Cracking:
 - After receving the hash, we will crack it using hashcat on our attacking machine. We will use the rockyou.txt.gz wordlist to run against the NetNTLMv2 hash.  After running haschat, the results are:
+
+![](../assets/images/Capture.PNG)
 
 
 - And just like that, the password has been cracked. At the end of the hash, the password is displayed.  For purposes of this lab, the password was simple and easy to crack. However, after receiving a hash, an attacker will be patient and work on cracking the hash, no matter how diffucult. The usage of weak passwords is surprisingly common within networks that do not have proper security measures set in place. After cracking a hash, an attacker now has access and it is just a matter of priviledge escalation.  Password reuse can also be an issue for networks, so an attacker's next steps would be to spray this password around and see what they can expose.
