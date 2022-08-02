@@ -43,6 +43,7 @@ Now we can see that Responder is successfully listening for events.  At this poi
 After receving the hash, we will crack it using hashcat on our attacking machine. We will use the rockyou.txt.gz wordlist to run against the NetNTLMv2 hash.  After running haschat, the results are:
 
 [![Capture.png](https://i.postimg.cc/WzfbJQpb/Capture.png)](https://postimg.cc/64nNkbGD)
+
 And just like that, the password has been cracked. At the end of the hash, the password is displayed.  For purposes of this lab, the password was simple and easy to crack. However, after receiving a hash, an attacker will be patient and work on cracking the hash, no matter how diffucult. The usage of weak passwords is surprisingly common within networks that do not have proper security measures set in place. After cracking a hash, an attacker now has access and it is just a matter of enumerating and moving around the network.  Password reuse can also be an issue for networks, so an attacker's next steps would be to spray this password around and see what they can expose.
 
 ## Defense:
