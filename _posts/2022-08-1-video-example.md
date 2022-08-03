@@ -9,7 +9,7 @@ banner:
   loop: true
   volume: 0.8
   start_at: 8.5
-  image: "/assets/images/banners/computers.jpg"
+  image: "/assets/images/banners/richard-horvath-_nWaeTF6qo0-unsplash.jpg"
   opacity: 0.618
   background: "#000"
   height: "100vh"
